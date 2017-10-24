@@ -15,16 +15,15 @@ Redis is used as a cross service instance storage to pass messages between socke
 ## Installing in production
 1. Clone the repo.
 2. Go into repo folder root.
-3. Run ```npm install --production``` or set the NODE_ENV environment variable to ```production```
-and then run ```npm install```.
+3. Run ```npm install --production``` or set ```NODE_ENV=production``` and then run ```npm install```.
 
 # Running the app
 ## Running in development
-1. Go to [config/config.json](config/config.json) and set the redis host, port and password.
+1. Go to [backend/config/config.json](backend/config/config.json) and set the redis host, port and password.
 2. Run ```npm start```.
 
 ## Running in production
-1. Go to [config/config.json](config/config.json) and set the redis host, port and password.
+1. Go to [backend/config/config.json](backend/config/config.json) and set the redis host, port and password.
 2. Go to [client](client) and run ```npm run build```.
 3. Go back to chat app project root.
 2. Run ```npm start```.
