@@ -1,4 +1,5 @@
-This is a socket.io based realtime chat server built in node.js with express.
+A real time chat app based on socket.io.
+Backend is built with express and client is built in React.
 Redis is used as a cross service instance storage to pass messages between sockets and store transient user data.
 
 # Requirements
@@ -27,9 +28,9 @@ Redis is used as a cross service instance storage to pass messages between socke
 2. Go to [client](client) and run ```npm run build```.
 3. Go back to chat app project root.
 4. If ```NODE_ENV=production``` is set simply run ```npm start```.
-if you want to use a temporary ```NODE_ENV``` use:
-(Linux\MacOS) ```NODE_ENV=production npm start```
-or
+if you want to use a temporary ```NODE_ENV``` use:<br/>
+(Linux\MacOS) ```NODE_ENV=production npm start```<br/>
+or<br/>
 (Windows) ```set NODE_ENV=production && npm start```.
 
 # Running tests
