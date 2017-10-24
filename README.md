@@ -15,7 +15,7 @@ Redis is used as a cross service instance storage to pass messages between socke
 ## Installing in production
 1. Clone the repo.
 2. Go into repo folder root.
-3. Run ```npm install --production``` or set ```NODE_ENV=production``` and then run ```npm install```.
+3. Run ```npm install --production```.
 
 # Running the app
 ## Running in development
@@ -26,7 +26,11 @@ Redis is used as a cross service instance storage to pass messages between socke
 1. Go to [backend/config/config.json](backend/config/config.json) and set the redis host, port and password.
 2. Go to [client](client) and run ```npm run build```.
 3. Go back to chat app project root.
-2. Run ```npm start```.
+4. If ```NODE_ENV=production``` is set simply run ```npm start```.
+if you want to use a temporary ```NODE_ENV``` use:
+(Linux\MacOS) ```NODE_ENV=production npm start```
+or
+(Windows) ```set NODE_ENV=production && npm start```.
 
 # Running tests
 1. From chat app project root run ```npm test```.
