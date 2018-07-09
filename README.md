@@ -1,5 +1,4 @@
 A real time chat app based on socket.io.
-Backend is built with express and client is built in React.
 Redis is used as a cross service instance storage to pass messages between sockets and store transient user data.
 
 # Requirements
