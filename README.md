@@ -1,4 +1,4 @@
-A real time chat app based on socket.io.
+A real time chat app that uses socket.io for orchestration.
 Redis is used as a cross service instance storage to pass messages between sockets and store transient user data.
 
 # Requirements
